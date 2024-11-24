@@ -1,0 +1,9 @@
+@import 'list-names.scss';
+
+
+@each $name in $list-names {
+  .#{$name} {
+    background-image: url('/images/#{$name}.png');
+  }
+}
+
