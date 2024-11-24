@@ -1,8 +1,6 @@
-// Sass file that assigns colors to taxt
-$Text-color: #FF0000;
-
+// Text color for button tags
 button {
-  color: $Text-color;
+  color: #FF0000;
 
   &:hover {
     color: #00FF00;
